@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll - Nexelix Academy</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Nexelix Academy</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="course.html">Courses</a> |
+      <a href="teacher.html">Teachers</a> |
+      <a href="dashboard.html">Dashboard</a> |
+      <a href="enroll.html">Enroll</a> |
+      <a href="lectures.html">Lectures</a> |
+      <a href="assignments.html">Assignments</a> |
+      <a href="certificates.html">Certificates</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>Student Enrolment Form</h2>
+      <p>
+        Please fill out the form below to enroll in our courses. We look forward to having you as part of our learning community!
+      </p>
+
+      <hr>
+
+      <form>
+        <!-- Enter Full Name  -->
+         <label for="Full Name">Full Name:</label>
+         <input type="text" placeholder="Enter Your Name">
+         <br><br>
+
+         <!-- Father NAme -->
+
+         <label for="Father NAme">Father Name:</label>
+         <input type="text" placeholder="Enter Father Name">
+         <br><br>
+
+         <!-- Email -->
+          <label for="Email">Enter Email:</label>
+          <input type="email" placeholder="Enter Email">
+          <br><br>
+
+          <label for="Phone">Phone: </label>
+          <input type="tel" placeholder="Enter Phone Number">
+          <br><br>
+
+          <label for="Gender">Gender</label>
+          <br>
+          <input type="radio" name="gender" value="Male"> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Other"> Other  
+          <br><br>
+
+          <label for="Course Selection">Select Course:</label>
+          <select name="course" id="Course Selection">
+            <option value="course1">Full Stack Web Development</option>
+            <option value="course2">Data Science</option>
+            <option value="course3">Mobile App Development</option>
+          </select>
+          <br><br>
+<!-- Date Of Birth -->
+          <label for="Date Of Birth">Date Of Birth:</label>
+          <input type="date" id="Date Of Birth">
+          <br><br>
+          
+          <!-- Skill -->
+          <label for="Skill">Skills:</label>
+          <br>
+          <input type="checkbox" name="skill" value="HTML"> HTML
+          <input type="checkbox" name="skill" value="CSS"> CSS
+          <input type="checkbox" name="skill" value="JavaScript"> JavaScript
+            <input type="checkbox" name="skill" value="Python"> Python
+            <br><br>
+
+          <!-- Address -->
+          <label for="Address">Address:</label>
+          <textarea name="address" id="Address" placeholder="Enter Your Address"></textarea>
+          <br><br>
+
+          <!-- upload photo -->
+          <label for="Photo">Upload Photo:</label>
+          <input type="file" name="photo" id="Photo">
+          <br><br>
+
+          <!-- Submit Button -->
+          <button type="submit" value="Submit">Submit</button>
+          
+          <!-- reset button -->
+          <button type="reset" value="Reset">Reset</button>
+
+      </form>
+    </section>
+    <hr>
+
+    <!-- extra information -->
+    <section>
+      <h3>Enrollment Instructions</h3>
+      <ul></ul>
+        <li>Fill out all the required fields to complete your enrollment.</li>
+        <li>upload a clear photo of yourself for your student profile.</li>
+        <li>Ensure all information provided is accurate and up-to-date.</li>
+        <li>Check your email for a confirmation message.</li>
+      </ul>
+     
+
+    </section>
+    <hr>
+  </main>
+  <hr>
+  <!-- Footer -->
+  <footer>  
+    <p>
+      &copy; 2026 Nexelix Academy. All rights reserved.
+  </footer> 
+</body>
+</html>
